@@ -30,10 +30,12 @@
                     if(listOfSources[i].includes('loading') || listOfSources[i].includes('spinner')){
 
                         console.log('prolly loading')
+                        //this is where to call the callback
                         return true
                     }
                 }
                 console.log(listOfSources)
+                ////this is where to call the callback
                 return false;
             }
             function fn(){
